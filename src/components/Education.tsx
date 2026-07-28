@@ -12,9 +12,9 @@ export function Education() {
           >
             <div>
               <h3 className="font-medium">{entry.degree}</h3>
-              <p className="text-sm text-neutral-500 dark:text-neutral-500">{entry.institution}</p>
+              <p className="text-sm text-neutral-500 dark:text-neutral-400">{entry.institution}</p>
             </div>
-            <span className="text-sm text-neutral-500 dark:text-neutral-500">{entry.years}</span>
+            <span className="text-sm text-neutral-500 dark:text-neutral-400">{entry.years}</span>
           </div>
         ))}
       </div>

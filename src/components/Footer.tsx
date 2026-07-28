@@ -4,7 +4,7 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="mx-auto max-w-3xl px-6 py-12 text-sm text-neutral-500 dark:text-neutral-500">
+    <footer className="mx-auto max-w-3xl px-6 py-12 text-sm text-neutral-500 dark:text-neutral-400">
       <div className="flex flex-wrap items-center justify-between gap-4 border-t border-neutral-200 pt-6 dark:border-neutral-800">
         <span>
           © {year} {resume.name}

@@ -8,7 +8,7 @@ export function Projects() {
         {resume.projects.map((project) => (
           <div key={project.name}>
             <h3 className="font-medium">{project.name}</h3>
-            <p className="text-sm text-neutral-500 dark:text-neutral-500">{project.context}</p>
+            <p className="text-sm text-neutral-500 dark:text-neutral-400">{project.context}</p>
             <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-neutral-700 dark:text-neutral-300">
               {project.description.map((item) => (
                 <li key={item}>{item}</li>

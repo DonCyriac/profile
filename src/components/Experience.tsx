@@ -11,9 +11,9 @@ export function Experience() {
               <h3 className="font-medium">
                 {job.role} · {job.company}
               </h3>
-              <span className="text-sm text-neutral-500 dark:text-neutral-500">{job.dates}</span>
+              <span className="text-sm text-neutral-500 dark:text-neutral-400">{job.dates}</span>
             </div>
-            <p className="text-sm text-neutral-500 dark:text-neutral-500">{job.location}</p>
+            <p className="text-sm text-neutral-500 dark:text-neutral-400">{job.location}</p>
             <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-neutral-700 dark:text-neutral-300">
               {job.responsibilities.map((item) => (
                 <li key={item}>{item}</li>
